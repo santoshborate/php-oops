@@ -1,0 +1,2 @@
+SPL Autoload example
+
