@@ -1,2 +1,2 @@
-SPL Autoload example
+PHP OOPS example
 
