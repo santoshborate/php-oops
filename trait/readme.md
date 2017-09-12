@@ -10,4 +10,7 @@ Where to use Trait
 I think Traits are an excellent way to reuse a chunk of code between a set of similar classes that should not inherit from the same abstract class.
 
 Example #2 Precedence Order Example
-An inherited method from a base class is overridden by the method inserted into MyHelloWorld from the SayWorld Trait. The behavior is the same for methods defined in the MyHelloWorld class. The precedence order is that methods from the current class override Trait methods, which in turn override methods from the base class. 
+An inherited method from a base class is overridden by the method inserted into MyHelloWorld from the SayWorld Trait. The behavior is the same for methods defined in the MyHelloWorld class. The precedence order is that methods from the current class override Trait methods, which in turn override methods from the base class.
+ 
+ 
+Traits support the use of abstract methods in order to impose requirements upon the exhibiting class. 
