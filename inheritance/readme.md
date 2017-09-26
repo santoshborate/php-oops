@@ -10,6 +10,8 @@ Types of inheritance
 4. Hybrid Inheritance
 5. Multiple Inheritance
 
+Description
+
 1. Single Inheritance - when a single derived class is created from a single base class then the inheritance is called as single inheritance.
 2. Hierarchical Inheritance - when more than one derived class are created from a single base class, then that inheritance is called as hierarchical inheritance.
 3. Multilevel Inheritance - when a derived class is created from another derived class, then that inheritance is called as multi level inheritance. 
