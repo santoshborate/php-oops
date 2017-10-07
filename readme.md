@@ -20,18 +20,21 @@ Interface :
 6. No constructors 
 7. Member of interface cannot be static
 
-final
+final:
 The methods or classes can not be modified by a child class. This prevents class inheritance, method-overriding and/or redefinition of methods.
 Note:  Only class definitions and/or methods inside a class can be defined as final.
 
-static
+static:
+
 Declares class methods or properties as a static value so that you have access to them without instantiating an object. These are shared between parent and child-classes.
 Note:  A class definition can not be static unlike final.
 
-const
+const:
+
 These create a constant value for a class. The constant values will get changed and can NOT be changed by a method in either parent or child-class.
 Note: Class constants are allocated per instance of the class.
 
-const vs static
+const vs static:
+
 Constant is just a constant, i.e. you can't change its value after declaring.
 Static variable is accessible without making an instance of a class and therefore shared between all the instances of a class.
