@@ -4,10 +4,7 @@
 // These two methods may exist in the same class or another one in base class and another in derived class.
 //
  function findSum() {
-     $sum = 0;
-     foreach (func_get_args() as $arg) {
-         $sum += $arg;
-     } return $sum;
+     return array_sum(func_get_args());
  }
 
  echo findSum(1, 2), '<br />';

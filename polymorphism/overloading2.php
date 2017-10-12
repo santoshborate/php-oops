@@ -1,9 +1,6 @@
 <?php
 class overload {
-    public $name;
-    public function __construct($agr) {
-        $this->name = $agr;
-    }
+
     public function __call($methodname, $agrument) {
         if($methodname == 'sum2') {
 
@@ -26,3 +23,4 @@ class overload {
 }
 $object = new overload('Sum');
 echo $object->sum2(1,2,3);
+echo "<br>".  $object->sum(2,3);
