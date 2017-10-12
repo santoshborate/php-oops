@@ -1,4 +1,5 @@
-Interface 
+Interface :
+Introduced in PHP 5
 
 Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are handled. 
 An interface allows unrelated classes to implement the same set of methods, regardless of their positions in the class inheritance hierarchy.

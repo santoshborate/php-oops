@@ -1,3 +1,5 @@
+OOPS introduced in in PHP 5
+
 Abstract Class:
 
 1. Abstract classes are classes that contain one or more abstract methods.
