@@ -1,4 +1,4 @@
-PHP 7 features
+**PHP 7 features**
 
 1. Scalar type declarations
 2. Return type declarations

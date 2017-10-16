@@ -1,4 +1,4 @@
-Interface :
+**Interface :**
 Introduced in PHP 5
 
 Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are handled. 
@@ -15,22 +15,23 @@ Note that it is possible to declare a constructor in an interface, what can be u
  
  The class implementing the interface must use the exact same method signatures as are defined in the interface. Not doing so will result in a fatal error. 
  
-PRIMARY PURPOSES OF AN INTERFACE:
+**PRIMARY PURPOSES OF AN INTERFACE:**
 
     Interfaces allow you to define/create a common structure for your classes – to set a standard for objects.
     Interfaces solves the problem of single inheritance – they allow you to inject ‘qualities’ from multiple sources.
     Interfaces provide a flexible base/root structure that you don’t get with classes.
     Interfaces are great when you have multiple coders working on a project – you can set up a loose structure for programmers to follow and let them worry about the details.
 
-WHEN SHOULD YOU MAKE A CLASS AND WHEN SHOULD YOU MAKE AN INTEFACE?
+**WHEN SHOULD YOU MAKE A CLASS AND WHEN SHOULD YOU MAKE AN INTEFACE?**
 
     If you have a class that is never directly instantiated in your program, this is a good candidate for an interface. In other words, if you are creating a class to only serve as the parent to other classes, it should probably be made into an interface.
     When you know what methods a class should have but you are not sure what the details will be.
     When you want to quickly map out the basic structures of your classes to serve as a template for others to follow – keeps the code-base predictable and consistent.
     
     
-Difference between abstract calss and interface
-Abstract Class
+#Difference between abstract calss and interface
+
+**Abstract Class**
 1. For abstract class a method must be declared as abstract. Abstract methods doesn’t have any implementation.
 2. The Abstract methods can declare with Access modifiers like public, internal, protected. When implementing in subclass these methods must be defined with the same (or a less restricted) visibility.
 3. Abstract class can contain variables and concrete methods.
@@ -40,7 +41,7 @@ Abstract Class
 7. Contain constructor
 8 Only complete member of abstract class can be static
 
-Interface 
+**Interface**
 1. For interface all the methods by default are abstract methods only. So one cannot declare variables or concrete methods in interfaces.
 2. All methods declared in an interface must be public.
 3. Interfaces cannot contain variables and concrete methods except constants.

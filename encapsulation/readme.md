@@ -1,4 +1,4 @@
-Encapsulation :
+**Encapsulation :**
 
 The wrapping up of a data and functions into a single unit(which is called class).
 

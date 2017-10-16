@@ -1,14 +1,14 @@
 
-Static 
+**Static**
 
 Declares class methods or properties as a static value so that you have access to them without instantiating an object. These are shared between parent and child-classes.
 A property declared as static cannot be accessed with an instantiated class object (though a static method can). 
 
-Static methods:
+**Static methods:**
 
 Because static methods are callable without an instance of the object created, the pseudo-variable $this is not available inside the method declared as static. 
 
-Static properties:
+**Static properties:**
 
 Static properties cannot be accessed through the object using the arrow operator -> and $this.
 

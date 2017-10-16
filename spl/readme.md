@@ -1,6 +1,6 @@
 SPL Introduced in PHP 5
 
-SPL - Standard PHP Library
+**SPL - Standard PHP Library**
 
 
 The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems.
